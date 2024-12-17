@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('GIT checkout') {
             steps {
-                git url: "https://github.com/buddy-works/simple-java-project.git"
+                git url: "https://github.com/jyothi0312/qct-sample-java-8-app.git"
                        }
         }
         stage('compile and build') {
